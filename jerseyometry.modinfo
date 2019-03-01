@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="25728dd9-df0a-4510-a4a3-ab6afc470470" version="0.0.0">
+  <Properties>
+    <Name>Jerseyometry</Name>
+    <Description>Improved flag and jersey colors</Description>
+    <Teaser>Improved flag and jersey colors</Teaser>
+    <Authors>Bradd Szonye</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateColors id="JERSEYOMETRY_FRONTEND_COLORS">
+      <Properties>
+        <LoadOrder>12000</LoadOrder>
+      </Properties>
+      <File>jerseyometrycolors.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateColors id="JERSEYOMETRY_COLORS">
+      <Properties>
+        <LoadOrder>12000</LoadOrder>
+      </Properties>
+      <File>jerseyometrycolors.xml</File>
+    </UpdateDatabase>
+    <AddUserInterfaces id="JERSEYOMETRY_DEBUG">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>jerseyometrydebug.xml</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>jerseyometrycolors.xml</File>
+    <File>jerseyometrydebug.lua</File>
+    <File>jerseyometrydebug.xml</File>
+  </Files>
+</Mod>
