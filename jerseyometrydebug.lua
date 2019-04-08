@@ -158,21 +158,23 @@ function secondary_test( p1 :string, p2 :string)
     end
 end
 
--- print("close primary colors");
--- primary_test();
--- print("close secondary colors");
--- secondary_test();
+print("close primary colors");
+primary_test();
+print("close secondary colors");
+secondary_test();
 -- print("done");
 
 -- jerseyometry conflicts:
 -- p/K0 vs p/R1
 -- p/W2 vs p/R3
 -- p/W2 vs p/A2
+-- p/W1 vs p/G1
 -- p/W1 vs p/A1
 -- p/R3 vs p/G3
 -- p/R2 vs p/O1
 -- p/R2 vs p/G2
 -- p/R2 vs p/G1
+-- p/R1 vs p/G1
 -- p/R1 vs p/A1
 -- p/O3 vs p/Y3
 -- p/O3 vs p/Y2
@@ -181,6 +183,7 @@ end
 -- p/O3 vs p/G2
 -- p/O2 vs p/Y1
 -- p/O2 vs p/G2
+-- p/O1 vs p/G1
 -- p/Y3 vs p/G3
 -- p/Y1 vs p/G2
 -- p/A3 vs p/P3
